@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('dev Environment') {
             steps {
-              sh "dev MainBranch"              
+              sh "echo devBranch"              
               }
              }
             }
